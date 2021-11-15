@@ -113,3 +113,50 @@ main div p {
 .images li:hover img {
   filter: blur(10px);
 }
+
+main .forms {
+  width: 100%;
+  background-color: #dddddd20;
+  padding: 15px 40px;
+}
+
+main .form {
+  display: flex;
+  flex-direction: column;
+  background-color: unset;
+  width: 35%;
+  margin: auto;
+}
+
+@media (max-width: 1199px) {
+  main .form {
+    width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  main .form {
+    width: 90%;
+  }
+}
+@media (max-width: 576px) {
+  main .form {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+main div input {
+  padding: 5px;
+  font-size: 16px;
+  color: #121212;
+  font-weight: bold;
+  outline: none;
+}
+main div input#result {
+  cursor: default;
+}
+
+main div input[type="submit"] {
+  padding: 5px 20px;
+  cursor: pointer;
+}

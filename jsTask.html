@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><img src="image/logo.svg"></li>
+            <li class="link"><a href="#" class="active">Home</a></li>
+            <li class="link"><a href="#">Tickets</a></li>
+            <li class="link"><a href="#">Contact Us</a></li>
+            <li class="link"><a href="#">About Us</a></li>
+        </ul>
+        <p>2020 : 10 : 01</p>
+    </header>
+    <main>
+        <div class="forms">
+            <div class="form">
+                <p>Enter integer search key</p>
+                <input placeholder="Enter an integer" type="number" id="integer">
+                <input onclick="searchinArray()" type="submit" value="Search">
+                <br>
+                <p>Result</p>
+                <input type="text" id="result" readonly>
+            </div>
+        </div>
+    </main>
+    <ul class="images">
+        <li><img src="image/img-1.jpg"></li>
+        <li><img src="image/img-3.jpg"></li>
+        <li><img src="image/img-2.jpg"></li>
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
