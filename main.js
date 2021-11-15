@@ -15,7 +15,7 @@ function searchinArray() {
   let search = integer.value;
   for (let i = 0; i < evenNum.length; i++) {
     if (evenNum[i] === parseInt(search)) {
-      result.value = `Exist in the array`;
+      result.value = `Exist in the array at index of ${i}`;
       break;
     } else if (search == "") {
       result.value = `Please write an integer`;
